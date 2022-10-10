@@ -17,8 +17,6 @@ PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # 文件传输
 PACKAGES="$PACKAGES luci-app-filetransfer"
-# CPU占用限制
-PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
 # collectd 统计
 PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 
@@ -27,8 +25,8 @@ PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # HelloWorld 代理
 PACKAGES="$PACKAGES luci-i18n-vssr-zh-cn"
-# frp 和 nps 内网穿透
-# PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
+# KMS服务
+PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 
 # 常用的网络存储组件
 
