@@ -12,7 +12,6 @@ PACKAGES=""
 PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 
 # 常用系统管理组件
-
 # Diskman 磁盘管理
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # 文件传输
@@ -28,36 +27,9 @@ PACKAGES="$PACKAGES luci-i18n-vssr-zh-cn"
 # KMS服务
 PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 
-# 常用的网络存储组件
-
-# 文件助手
-# PACKAGES="$PACKAGES luci-app-fileassistant"
-# 硬盘休眠
-# PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
-# p910nd 打印服务器
-# PACKAGES="$PACKAGES luci-i18n-p910nd-zh-cn"
-# GoWebDav
-# PACKAGES="$PACKAGES luci-i18n-gowebdav-zh-cn"
-# Samba 网络共享
-# PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
-# qBittorrent 下载器
-# PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
-# Aria2 下载器
-# PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
-# FTP 服务器
-# PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
-
-# Docker 组件
-# PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
-
-# VPN 类
-
-# IPSec VPN
-# PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
-# Zerotier
-# PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
-
 # 网络组件
+# ipv6
+PACKAGES="$PACKAGES dnsmasq-full ipv6helper 6in4 6rd 6to4"
 
 # EQoS 网速控制
 PACKAGES="$PACKAGES luci-i18n-eqos-zh-cn"
@@ -76,7 +48,6 @@ PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
 # PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
 
 # 一些其他可能有用的包
-
 # zsh 终端
 PACKAGES="$PACKAGES zsh"
 # Vim 完整版，带语法高亮
