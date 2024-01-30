@@ -16,6 +16,8 @@ PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # 文件传输
 PACKAGES="$PACKAGES luci-app-filetransfer"
+# CPU 占用限制
+PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
 # collectd 统计
 PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 
@@ -24,8 +26,18 @@ PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # HelloWorld 代理
 PACKAGES="$PACKAGES luci-i18n-vssr-zh-cn"
+# OpenClash 代理
+PACKAGES="$PACKAGES luci-app-openclash"
+# Passwall 代理
+PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 # KMS服务
 PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
+
+# VPN 类
+# IPSec VPN
+PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
+# Zerotier
+PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
 
 # 网络组件
 # ipv6
@@ -55,7 +67,7 @@ PACKAGES="$PACKAGES vim-fuller"
 # X/Y/ZMODEM 文件传输
 PACKAGES="$PACKAGES lrzsz"
 # OpenSSH
-# PACKAGES="$PACKAGES openssh-server openssh-client"
+#PACKAGES="$PACKAGES openssh-server openssh-client"
 # Netdata 系统监控界面
 PACKAGES="$PACKAGES netdata"
 
