@@ -12,8 +12,6 @@ PACKAGES=""
 PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 
 # 常用系统管理组件
-# CPU 占用限制
-PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
 # collectd 统计
 PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 
