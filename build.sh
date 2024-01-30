@@ -12,10 +12,6 @@ PACKAGES=""
 PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
 
 # 常用系统管理组件
-# Diskman 磁盘管理
-PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
-# 文件传输
-PACKAGES="$PACKAGES luci-app-filetransfer"
 # CPU 占用限制
 PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
 # collectd 统计
@@ -24,8 +20,6 @@ PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 # 常用软件服务
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
-# HelloWorld 代理
-PACKAGES="$PACKAGES luci-i18n-vssr-zh-cn"
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
 # Passwall 代理
